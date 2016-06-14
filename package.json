@@ -1,0 +1,13 @@
+{
+  "displayName": "Coloraize",
+  "name": "Coloraize-N1",
+  "theme": "ColoraizCss-Theme",
+  "version": "0.1.0",
+  "description": "N1 theme based on Ido-N1 & Coloraiz.css",
+  "license": "GPL-3.0",
+  "engines": {
+    "nylas": "*"
+  },
+  "styleSheets": ["controls", "email-frame", "header", "toolbar", "sidebar", "threads", "notifications", "preferences", "footer",  "message-list-sidebar"],
+  "private": true
+}
