@@ -1,0 +1,214 @@
+@import "variables";
+@import "ui-variables";
+
+/**
+ * Buttons
+ */
+.btn-toolbar, .token, .actions>.btn, .new-package>.btn, .appearance-mode-switch>.btn {
+  box-shadow: none !important;
+  background: @white !important;
+  border: 1px solid @taiga-light !important;
+  cursor: pointer !important;
+  margin-left: @toolbar-btns-margin-left;
+ }
+
+.popover-container .category-picker{
+  margin-left: @toolbar-btns-margin-left;
+}
+
+.search-bar{
+  width: @search-bar-width;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 17px;
+  padding-left: 0;
+  .menu .header-container input.empty{
+    padding-left: 40%;
+    background-color: @search-input-bg;
+    border: none;
+    transition: padding 0.3s;
+    &:focus{
+      padding-left: 30px!important;
+    }
+  }
+}
+
+@media(max-width: 966px){
+  .search-bar .menu .header-container input.empty{
+    padding-left: 30%;
+  }
+}
+
+
+.list-rows{
+    .list-item{
+        .inner{
+          .btn{
+            border-radius: 999px;
+            padding: 34px;
+            height: 64px;
+            width: 64px;
+            margin-top: 5px;
+
+          }
+       }
+    }
+}
+
+.toolbar-window-controls {
+  margin-top: 25px;
+  margin-left: 15px;
+  width: auto;
+  min-width: 0;
+}
+
+.sheet-toolbar{
+  border: none;
+  .btn-toolbar{
+    border-radius: @btn-border-radius!important;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    box-shadow: none !important;
+    background: @white !important;
+    border: 1px solid @taiga-light !important;
+    cursor: pointer !important;
+    margin-top: @toolbar-btns-margin-top;
+    margin-left: @toolbar-btns-margin-left;
+    margin-bottom: @toolbar-btns-margin-bottom;
+  }
+  .message-toolbar-items{
+    order: @toolbar-items-order;
+    padding-left: @toolbar-padding-left;
+  }
+  .btn img.content-mask{
+    background-color: @icon-bg-color;
+  }
+}
+
+/*  Single Panel Mode  */
+.layout-mode-list{
+  .search-bar .menu .header-container input.empty{
+      padding-left: 45%;
+  }
+  .sheet-toolbar{
+    .btn-toolbar.btn{
+      background: @sidebar-bg !important;
+      border-color: @white !important;
+      img.content-mask{
+        background-color: @white;
+      }
+    }
+    .message-toolbar-arrow{
+      img.content-mask{
+        margin-top: 26px;
+      }
+    }
+  }
+}
+
+body.platform-win32 {
+  .sheet-toolbar-container {
+    .btn-toolbar {
+      border: 0 !important;
+    }
+  }
+}
+
+.btn.btn-emphasis {
+  background-color: @taiga-accent !important;
+  border-color: @taiga-accent !important;
+  color: @white !important;
+
+  img.content-mask {
+    background-color: @white !important;
+  }
+}
+
+.button-dropdown.bordered {
+  .primary-item {
+    cursor: pointer !important;
+    box-shadow: none !important;
+    background: @white !important;
+    border: 1px solid @taiga-light !important;
+    border-top-left-radius: @base-border-radius !important;
+    border-bottom-left-radius: @base-border-radius !important;
+    padding-top: 5px;
+  }
+
+  .secondary-picker {
+    cursor: pointer !important;
+    box-shadow: none !important;
+    background: @white !important;
+    border: 1px solid @taiga-light !important;
+    border-top-right-radius: @base-border-radius !important;
+    border-bottom-right-radius: @base-border-radius !important;
+    margin-left: -1px !important;
+  }
+
+  .secondary-items {
+    .item  {
+      cursor: pointer;
+      color: @taiga-light !important;
+      background: @white !important;
+
+      .button-dropdown {
+        img {
+          background: @taiga-light  !important;
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Feedback button
+ */
+.btn-feedback {
+  background: @taiga-accent !important;
+  border: none !important;
+}
+
+/**
+ * Search bar
+ */
+.content-container {
+  .item.selected {
+    background: lighten(@taiga-light, 20%) !important;
+    color: @white !important;
+  }
+}
+
+/**
+ * Dropdown
+ */
+.menu {
+  .item.selected {
+    background: @taiga-light !important;
+    .primary {
+      color: @white !important;
+    }
+    .secondary {
+      color: @taiga-lighter !important;
+    }
+  }
+}
+
+/**
+ * Plugin page
+ */
+.package {
+  border-radius: @base-border-radius;
+}
+
+/**
+ * Prefs page
+ */
+.appearance-mode {
+  cursor: pointer;
+
+  &.active {
+    background-color: lighten(@taiga-light, 30%) !important;
+  }
+}
