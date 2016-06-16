@@ -4,7 +4,7 @@ A Coloraiz.css theme for <a href="https://nylas.com/">Nylas N1</a>
 
 ##Change the color
 Go to ```../styles/variables.less``` and at line 70 you can modify the var ```@azure-3``` to one of this:
-**
+
  // @purple
 - @purple-1
 - @purple-2
@@ -49,4 +49,3 @@ Go to ```../styles/variables.less``` and at line 70 you can modify the var ```@a
 - @orange-1
 - @orange-2
 - @orange-3
-**
