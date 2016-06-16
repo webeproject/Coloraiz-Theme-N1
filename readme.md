@@ -6,46 +6,46 @@ A Coloraiz.css theme for <a href="https://nylas.com/">Nylas N1</a>
 Go to ```../styles/variables.less``` and at line 70 you can modify the var ```@azure-3``` to one of this:
 
  // @purple
- @purple-1
- @purple-2
- @purple-3
+- @purple-1
+- @purple-2
+- @purple-3
  
  // @lred
- @lred-1 
- @lred-2 
- @lred-3 
+- @lred-1 
+- @lred-2 
+- @lred-3 
  
  // @marine
- @marine-1
- @marine-2
- @marine-3
+- @marine-1
+- @marine-2
+- @marine-3
  
  // @gray
- @gray-1 
- @gray-2 
- @gray-3 
+- @gray-1 
+- @gray-2 
+- @gray-3 
  
  // @green
- @green-1 
- @green-2 
- @green-3 
+- @green-1 
+- @green-2 
+- @green-3 
  
  // @azure
- @azure-1 
- @azure-2 
- @azure-3 
+- @azure-1 
+- @azure-2 
+- @azure-3 
  
  // @lgray
- @lgray-1
- @lgray-2
- @lgray-3
+- @lgray-1
+- @lgray-2
+- @lgray-3
  
  // @blue
- @blue-1 
- @blue-2
- @blue-3
+- @blue-1 
+- @blue-2
+- @blue-3
  
  //orange
- @orange-1
- @orange-2
- @orange-3
+- @orange-1
+- @orange-2
+- @orange-3
