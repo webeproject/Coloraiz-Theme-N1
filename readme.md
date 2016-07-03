@@ -3,7 +3,7 @@ A Coloraiz.css theme for <a href="https://nylas.com/">Nylas N1</a>
 ![Screenshot_1](Screen-azure-3.png)
 
 ##Change the color
-Go to ```../styles/variables.less``` and at line 70 you can modify the var ```@azure-3``` to one of this:
+Go to ```../styles/variables.less``` and at line 52 you can modify the var ```coloraiz-sidebar--default: @azure-3;``` to one of this:
 
 **Purple**
 - @purple-1
