@@ -4,6 +4,8 @@ A Coloraiz.css theme for <a href="https://nylas.com/">Nylas N1</a>
 
 ##Change the color
 Go to **```../styles/variables.less```** and at line _`52`_ you can modify the var `@azure-3`
+
+**Code:**
 ```less 
 coloraiz-sidebar--default: @azure-3;
 ``` 
